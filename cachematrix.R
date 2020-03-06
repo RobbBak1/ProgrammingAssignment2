@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## if so, it will return the inverse from the CacheMatrix (getinv)
 ## if not, is will calculate the inverse of the matrix and store it in setinv.
 
-cacheSolve = function(x, ...) {
+cacheSolve <- function(x, ...) {
         
         ## Checks is the inv is already calculated in the CacheMatrix, if so it returns inv
         inv <- x$getinv()
